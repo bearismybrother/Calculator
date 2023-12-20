@@ -1,0 +1,36 @@
+.calculator{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border: 10px solid black;
+    height :  500px;
+    margin:auto;
+    padding: 30px;
+    background-color:aquamarine
+}
+
+.flexContainer{
+    display:flex;
+    width: 100%;
+    height: 100%;
+}
+
+.result{
+    display:flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 100px;
+}
+
+.button-highlight{
+    background-color: lightblue;
+}
+
+button{
+    flex: 1;
+    margin: 5px;
+    font-size: 40px;
+}
+
+
